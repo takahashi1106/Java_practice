@@ -1,10 +1,14 @@
 public class Chapter02 {
   public static void main(String[]args){
-    int x = 7;
-    x *= 3;
-    System.out.println( "x=" + x );
-    x /= 2;
-    System.out.println( "x=" + x );
+    int x,y,b;
+    x = 3;
+    y = 7;
+    
+    b = x;
+    x = y;
+    y = b;
+
+    System.out.println( "x=" + x + ",y=" + y );
 }
 }
 
