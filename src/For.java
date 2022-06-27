@@ -8,5 +8,6 @@ public class For {
     //x *= n;
     //System.out.println(x);
 
+    
   }
 }
