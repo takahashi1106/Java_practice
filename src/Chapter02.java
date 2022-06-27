@@ -1,7 +1,10 @@
 public class Chapter02 {
   public static void main(String[]args){
-System.out.println("Hello WEB!!");
-System.out.println("Hello Java!!");
-System.out.println("ここに記入");
+    int x = 7;
+    x *= 3;
+    System.out.println( "x=" + x );
+    x /= 2;
+    System.out.println( "x=" + x );
 }
 }
+
