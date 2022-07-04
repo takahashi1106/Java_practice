@@ -28,6 +28,19 @@ public class For {
     /*for (int i =1, x=2; i<=8; i++, x*=2)
       System.out.println("2の"+i+"乗は"+x);*/
 
+  //7 の階乗を計算し、表示するプログラム
+    /*int x = 1;
+    for (int i = 2; i <=7; i++){
+      x *= i;
+    }
+    System.out.println(x);*/
 
-  }
+  //整数を 10 回入力し、平均値を求めるプログラムを作成しなさい。
+  //要らないint i = (int)(Math.random()*10 +1);
+    /*int sum = 0;
+    for (int i = 1; i <=10; i++){
+    sum += i;
+    }
+    System.out.println(sum/10);*/
+ }
 }
