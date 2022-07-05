@@ -42,5 +42,15 @@ public class For {
     sum += i;
     }
     System.out.println(sum/10);*/
+
+  //1〜10までの整数をカンマ区切りで横並びで表示させる
+  //(10にはカンマをつけない)
+  int []a = {1,2,3,4,5,6,7,8,9,10};
+    for(int i = 0; i < a.length; i++){
+      System.out.print(a[i]);
+      if(i < a.length - 1){
+      System.out.print(",");
+      }
+    }
  }
 }
