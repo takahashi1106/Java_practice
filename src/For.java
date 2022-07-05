@@ -45,12 +45,41 @@ public class For {
 
   //1〜10までの整数をカンマ区切りで横並びで表示させる
   //(10にはカンマをつけない)
-  int []a = {1,2,3,4,5,6,7,8,9,10};
+  /*int []a = {1,2,3,4,5,6,7,8,9,10};
     for(int i = 0; i < a.length; i++){
       System.out.print(a[i]);
       if(i < a.length - 1){
       System.out.print(",");
       }
+    }*/
+
+  //1〜10までに偶数が何個あるか、また偶数の合計は幾つになるか表示させる
+  /*int count = 0;
+  int sum = 0;
+    for(int i = 1; i <=10; i++) {
+      if (i % 2 == 0) {
+        count++;
+        sum += i;
+      }
     }
+      System.out.println(count);
+      System.out.println(sum);*/
+
+  //整数、0 か 1 を 10 回入力する。これを対戦成績と考え、0 を負け、1 を勝ちとして、勝ちの総数、負けの総数を表示するプログラム
+   /*int win = 0;
+   int lose = 0;
+
+   for (int i = 0; i < 10; i++){
+    int a = (int)(Math.random()*2+0);
+      if (a == 1){
+        win += 1;
+      } else {
+        lose += 1;
+      }
+    }
+    System.out.println("勝ちは"+win+"回");
+    System.out.println("負けは"+lose+"回");*/
+
+
+   }
  }
-}
