@@ -84,14 +84,14 @@ public class For {
   //奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
     
   //お金の数を数えるプログラム
-    /*int X_10000 = 2;
-    int X_5000  = 1;
-    int X_1000  = 5;
-    int X_500   = 3;
-    int X_100   = 3;
-    int X_50    = 1;
-    int X_10    = 2;
-    int X_1     = 1;
+    int X_10000 = 5;
+    int X_5000  = 3;
+    int X_1000  = 4;
+    int X_500   = 2;
+    int X_100   = 1;
+    int X_50    = 7;
+    int X_10    = 8;
+    int X_1     = 9;
 
     int ans = X_10000*10000+
               X_5000 *5000+
@@ -101,7 +101,7 @@ public class For {
               X_50   *50+
               X_10   *10+
               X_1    *1;
-    System.out.println(ans);*/
+    System.out.println(ans);
 
 
    }
