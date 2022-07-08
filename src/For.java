@@ -82,7 +82,33 @@ public class For {
 
   //要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。[0]~[10]の値の
   //奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
-    
+  /* 
+  int a[] = new int[20];
+
+    System.out.print("偶数:");
+      for (int i = 0; i < a.length; i++){
+          a[i] = i * 5;
+            if(a[i] % 2 == 0){
+              System.out.print(a[i]);
+                if( i < 18){
+                System.out.print(",");
+                }
+            }
+      }
+
+      System.out.println("");
+
+      System.out.print("奇数:");
+        for (int i = 0; i < a.length; i++){
+          a[i] = i * 5;
+            if(a[i] % 2 != 0){
+              System.out.print(a[i]);
+                if( i < 19){
+                System.out.print(",");
+                }
+            }
+        }*/
+
   //お金の数を数えるプログラム
     /*int X_10000 = 5;
     int X_5000  = 3;
@@ -103,6 +129,5 @@ public class For {
               X_1    *1;
     System.out.println(ans);*/
 
-
-   }
- }
+  }
+}
