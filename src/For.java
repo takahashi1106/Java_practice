@@ -137,7 +137,7 @@ public class For {
     for (int i = 1; i <= 9; i++){
       int a = (int)(Math.random() * 5 + 1);
       int b = (int)(Math.random() * 5 + 1);
-        han += a;
+        han  += a;
         kyo  += b;
         System.out.println(i + "回表、 阪神の得点は" + a + "点");
         System.out.println(i + "回裏、 巨人の得点は" + b + "点");
@@ -202,6 +202,52 @@ public class For {
       System.out.print(i+"*"+"個");
       System.out.print(" ");
     }*/
+
+//個数を示す数値を入力し、その個数分だけ 0 ～ 9 の数字を表示するプログラムを作成しなさい。
+//数字は 0, 1, 2, 3, , の順に表示し、9 の次は 0 に戻るものとします。
+
+    /*int count = 14;
+
+    for(int i = 0; i < count; i++) {
+      System.out.print(i % 10);
+    }*/
+
+//ストライク・カウントを数えるプログラムを作成しなさい。
+//１球ごとにストライクかボールかを入力する。
+//３ストライクまたは４ボールになったら入力を止め、
+//ストライクとボールのカウントを表示する。
+
+//ファウルの何れかを入力する。
+
+    /*int sut = 0;
+    int bol = 0;
+
+    while (sut < 3 && bol < 4){
+      System.out.println("ピッチャー1球投げました");
+      int a = (int)(Math.random() * 3 + 1);
+      if(a == 1){
+      System.out.println("ストライク");
+      } else if(a == 2){
+      System.out.println("ボール");
+      } else {
+      System.out.println("ファール");
+      }
+
+      if(a == 1){
+        sut ++;
+      } else if(a == 2){
+        bol ++;
+      } else if(a == 3 && sut < 2){
+        sut ++;
+      }
+      System.out.println(bol + "ボール," + sut + "ストライク" );
+      System.out.println("");
+    }*/
+
+    
+
+
+
 
   }
 }
