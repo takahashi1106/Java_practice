@@ -131,25 +131,25 @@ public class For {
 
 //巨人、阪神戦で毎回の得点を入力する。（１回～９回）
 //入力が終わったら、それぞれの得点とどちらが勝ったかを表示する。
-  /*int hannshin = 0;
-  int kyojinn = 0;
+  /*int han = 0;
+  int kyo = 0;
 
     for (int i = 1; i <= 9; i++){
       int a = (int)(Math.random() * 5 + 1);
       int b = (int)(Math.random() * 5 + 1);
-        hannshin += a;
-        kyojinn  += b;
+        han += a;
+        kyo  += b;
         System.out.println(i + "回表、 阪神の得点は" + a + "点");
         System.out.println(i + "回裏、 巨人の得点は" + b + "点");
       }
-      System.out.print("阪神：" + hannshin + " ");
-      System.out.print("巨人：" + kyojinn);
+      System.out.print("阪神：" + han + " ");
+      System.out.print("巨人：" + kyo);
 
       System.out.println("");
 
-      if (hannshin > kyojinn){
+      if (han > kyo){
         System.out.println("阪神の勝ち");
-      } else  if (kyojinn > hannshin){
+      } else  if (kyo > han){
         System.out.println("巨人の勝ち");
       } else {
         System.out.println("引き分け");
