@@ -252,7 +252,7 @@ public class For {
       if (count % i == 0 ){
         so = so + 1;
       }
-      System.out.println(so);
+      //System.out.println(so);
     }
 
       if(so == 1){
