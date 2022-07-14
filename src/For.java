@@ -244,9 +244,22 @@ public class For {
       System.out.println("");
     }*/
 
-    
+//入力された数が素数かどうかを判定するプログラムを作成しなさい。
+    /*int count = 4;
+    int so    = 0;
 
+    for(int i = 2; i <= count; i ++){
+      if (count % i == 0 ){
+        so = so + 1;
+      }
+      System.out.println(so);
+    }
 
+      if(so == 1){
+        System.out.println(count + "は素数です");
+      } else {
+        System.out.println(count + "は素数ではありません");
+      }*/
 
 
   }
