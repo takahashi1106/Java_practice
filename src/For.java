@@ -2,7 +2,7 @@ public class For {
   public static void main(String[]args){
 //for( int n = 1, x = 2 ; n <= 8 ; n++, x *= 2 )
 //System.out.println( "2の" + n + "乗=" + x );
-    
+
     /*int x =1;
     for(int n =2; n <= 7;n++)
     x *= n;
@@ -12,7 +12,7 @@ public class For {
     /*for (int i = 1; i<=10; i++){
       System.out.println("SPAM");
     }*/
-    
+
 //九九、三の段（ 3 ～ 27 の 3 の倍数）を表示する
     /*for (int i =1;i<=9;i++){
       System.out.println(i*3);
@@ -82,7 +82,7 @@ public class For {
 
 //要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。[0]~[10]の値の
 //奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
-  /* 
+  /*
   int a[] = new int[20];
 
     System.out.print("偶数:");
@@ -186,7 +186,7 @@ public class For {
 
   /*int[] a = {20,40,18,6,25,10};
   int minMax = a[0];
-    
+
     for (int b : a){
       if (b < minMax){
         minMax = b;
@@ -262,7 +262,7 @@ public class For {
       }*/
 
 //九九表（一の段～九の段）を表示するプログラムを作成しなさい。
-      
+
       /*for(int i = 1; i <= 9; i++) {
         for(int j = 1; j <= 9; j++){
           System.out.print(i * j + " ");
