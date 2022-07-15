@@ -261,6 +261,31 @@ public class For {
         System.out.println(count + "は素数ではありません");
       }*/
 
+//九九表（一の段～九の段）を表示するプログラムを作成しなさい。
+      
+      /*for(int i = 1; i <= 9; i++) {
+        for(int j = 1; j <= 9; j++){
+          System.out.print(i * j + " ");
+        }
+        System.out.println();
+      }*/
+
+//数値を繰り返して入力し、0 が入力されたら入力を止め、
+//それまでの合計を表示するプログラムを作成しなさい。
+
+    /*int count = 10;
+    int sum = 0;
+
+      for(int i = 0; i < count; i++){
+        int a = (int)(Math.random() * 10 + 0);
+        System.out.println(a);
+        sum += a;
+        if(a == 0)
+          break;
+      }
+      System.out.println("合計は" + sum);*/
+
+
 
   }
 }
