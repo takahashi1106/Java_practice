@@ -288,14 +288,14 @@ public class For {
 //サイズを示す数値を入力し、何等かの文字で例のような
 //三角形を表示するプログラムを作成しなさい。
 
-      int size = 5;
+      /*int size = 5;
 
       for(int i = 1; i < size; i++){
         for(int j = 1 ; j <= i ; j++ ){
         System.out.print("&");
         }
         System.out.println();
-      }
+      }*/
 
   }
 }
